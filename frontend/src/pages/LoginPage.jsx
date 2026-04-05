@@ -64,7 +64,7 @@ const LoginPage = () => {
                 </svg>
                 <input
                   type="email" name="email" value={formData.email}
-                  onChange={handleChange} required placeholder="you@example.com"
+                  onChange={handleChange} required placeholder="     you@example.com"
                   className="auth-input pl-10"
                 />
               </div>
@@ -83,7 +83,7 @@ const LoginPage = () => {
                 <input
                   type={showPass ? "text" : "password"} name="password"
                   value={formData.password} onChange={handleChange}
-                  required placeholder="••••••••"
+                  required placeholder="     ••••••••"
                   className="auth-input pl-10 pr-10"
                 />
                 <button type="button" onClick={() => setShowPass((s) => !s)}

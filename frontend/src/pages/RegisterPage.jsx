@@ -88,7 +88,7 @@ const RegisterPage = () => {
                   <path strokeLinecap="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                 </svg>
                 <input type="email" name="email" value={formData.email} onChange={handleChange}
-                  required placeholder="you@example.com" className="auth-input pl-10" />
+                  required placeholder="     example.com" className="auth-input pl-10" />
               </div>
             </div>
 
