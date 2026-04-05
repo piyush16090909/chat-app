@@ -10,7 +10,7 @@ import ChatWindow from "../components/ChatWindow";
 
 const ChatPage = () => {
   return (
-    <div className="flex h-screen overflow-hidden bg-gray-100">
+    <div className="flex h-screen overflow-hidden" style={{background:"#0f1117"}}>
       <Sidebar />
       <ChatWindow />
     </div>
